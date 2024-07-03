@@ -1,0 +1,83 @@
+.container {
+    display: block;
+    border: 2px solid #ccc;
+    background-color: #177e8063;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2%;
+    width: 200px;
+    position: fixed;
+    top: 50%; 
+    right: 50px;
+    transform: translateY(-50%);
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ccc;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#login-message {
+    margin-top: 10px;
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+#login-form-container {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+li:hover {
+    transform: scale(1.2);
+    transition: none;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

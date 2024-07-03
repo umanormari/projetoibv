@@ -1,0 +1,40 @@
+body {
+    background-image: url('../imagens/fundo.png');
+}
+
+.container-mensagens {
+    display: flex;
+    margin: 5% 2% 5% 5%;
+    padding: 2%;
+}
+
+.mensagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -10px;
+    padding: 2%;
+}
+
+.content-mensagens {
+    width: calc(50% - 20px); 
+    margin: 0 10px; 
+}
+
+.content-mensagens iframe {
+    width: 100%;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container-mensagens {
+        flex-direction: column;
+        margin: 2% 1%;
+        padding: 1%;
+    }
+
+    .content-mensagens {
+        width: 100%;
+        margin: 10px 0;
+    }
+}

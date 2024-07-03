@@ -1,0 +1,79 @@
+body {
+    background-image: url('../imagens/fundo.png');
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 1%;
+    width: 100%;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    padding: 0 100px;
+    line-height: 1.5;
+}
+
+.contato-formulario {
+    width: 25%;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    background-color: #1f2a365d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contato-formulario input, .contato-formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contato-formulario textarea {      
+    height: 80px;
+}
+
+.contato-formulario button {    
+    padding: 10px 20px;
+    background-color: #1f2a36;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contato-formulario button:hover {
+    background-color: #33333300;
+}
+
+.icones {
+    padding: 0 5% 0 0;
+    margin: 0 1% 0 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .contato-formulario {
+        width: 80%;
+    }
+
+    .contato {
+        padding: 0 20px;
+        font-size: 1.2em;
+    }
+}
